@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Circle background -->
+  <circle cx="100" cy="100" r="96" fill="#3f51b5"/>
+  
+  <!-- Stylized C -->
+  <path d="M130 60
+           A40 40 0 1 0 130 140"
+        fill="none"
+        stroke="#ffffff"
+        stroke-width="14"
+        stroke-linecap="round"/>
+
+  <!-- Stylized M -->
+  <path d="M70 140
+           L70 80
+           L100 120
+           L130 80
+           L130 140"
+        fill="none"
+        stroke="#ec407a"
+        stroke-width="14"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>

@@ -1,25 +1,53 @@
-site_name: Chris Mits — Portfolio
+site_name: Christos Mitsanis
 site_description: Personal site for apps, research, protocols, and projects
 site_url: https://CMits.github.io/CM_Website
 repo_url: https://github.com/CMits/CM_Website
+
 theme:
   name: material
   language: en
+  logo: assets/logo.svg
+  favicon: assets/logo.svg
   features:
+    - navigation.tabs
     - navigation.instant
     - navigation.tracking
-    - navigation.expand
+    - navigation.sections
+    - header.autohide
     - toc.follow
     - content.code.copy
+    - content.tooltips
     - search.suggest
     - search.highlight
+    - announce.dismiss
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
   icon:
-    logo: material/account-circle
     repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CMits
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/christos-mitsanis/
+    - icon: material/email
+      link: mailto:c.mitsanis@uq.edu.au
+  # Optional announcement bar (edit text or remove)
+  announcement:
+    type: note
+    text: "New! Try my latest Streamlit demo on PSoup → APSIM bridging in the Apps page."
 
 plugins:
   - search
@@ -33,13 +61,8 @@ markdown_extensions:
   - toc:
       permalink: true
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/CMits
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/www.linkedin.com/in/christos-mitsanis/
-    # add more if you want
+extra_css:
+  - assets/styles.css
 
 nav:
   - Home: index.md
@@ -48,3 +71,4 @@ nav:
   - Apps: apps.md
   - Projects: projects.md
   - Articles: articles.md
+

@@ -1,0 +1,119 @@
+/* ===== Fonts ===== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Sora:wght@600;700&display=swap');
+
+/* ===== LIGHT SCHEME TOKENS ===== */
+:root,
+[data-md-color-scheme="default"] {
+  --brand-radius: 18px;
+  --brand-bg: #faf9fb;
+  --brand-card: rgba(255,255,255,.75);
+  --brand-stroke: rgba(0,0,0,.06);
+  --brand-grad-a: #f1eef6;      /* lavender mist */
+  --brand-grad-b: #ffffff;
+
+  /* keep these soft in light */
+  --md-primary-fg-color: #5b4b8a;  /* midnight plum */
+  --md-accent-fg-color:  #a387c4;  /* soft lavender */
+}
+
+/* ===== DARK SCHEME TOKENS (Material sets this attribute) ===== */
+[data-md-color-scheme="slate"] {
+  --brand-bg: #0f0d14;
+  --brand-card: rgba(24,20,30,.55);
+  --brand-stroke: rgba(255,255,255,.08);
+  --brand-grad-a: #1a1522;
+  --brand-grad-b: #100d17;
+
+  /* rely on Material's dark text colors; just tune accents */
+  --md-primary-fg-color: #b39ddb;   /* muted lilac */
+  --md-accent-fg-color:  #d1c4e9;
+}
+
+/* ===== Typography ===== */
+body, .md-typeset {
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  letter-spacing: .01em;
+}
+
+/* ===== Background (works for both schemes via tokens) ===== */
+.md-main {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, var(--brand-grad-a), transparent 60%),
+    radial-gradient(1200px 600px at 110% 10%, var(--brand-grad-a), transparent 60%),
+    var(--brand-bg);
+}
+
+/* ===== Navbar logo larger ===== */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 52px !important;
+  width: auto !important;
+}
+
+/* ===== Hero ===== */
+.hero {
+  text-align: center;
+  padding: 4.5rem 1rem 2.25rem;
+  background: linear-gradient(
+    180deg,
+    color-mix(in oklab, var(--md-primary-fg-color) 12%, transparent),
+    transparent 60%
+  );
+  border: 1px solid var(--brand-stroke);
+  border-radius: var(--brand-radius);
+  margin-bottom: 1rem;
+  backdrop-filter: saturate(130%) blur(4px);
+}
+.hero-avatar {
+  width: 124px; height: 124px;
+  border-radius: 50%; object-fit: cover;
+  box-shadow: 0 10px 24px rgba(0,0,0,.12);
+  margin-bottom: .8rem;
+}
+.hero-subtitle {
+  font-size: 1.06rem;
+  color: var(--md-default-fg-color--light);
+  margin: .5rem auto 1.1rem;
+  max-width: 820px;
+}
+.hero-actions { display: inline-flex; gap: .75rem; flex-wrap: wrap; justify-content: center; }
+
+/* ===== Buttons ===== */
+.btn { display:inline-block; padding:.68rem 1.05rem; border-radius:999px; text-decoration:none!important; font-weight:600; border:1.5px solid transparent; }
+.btn.primary { background: var(--md-primary-fg-color); color:#fff; }
+.btn.secondary { background: var(--md-accent-fg-color); color:#1a1522; }
+.btn.ghost { background:transparent; color:var(--md-primary-fg-color); border-color: color-mix(in oklab, var(--md-primary-fg-color) 40%, transparent); }
+.btn:hover { transform: translateY(-1px); filter: brightness(1.05); }
+
+/* ===== Cards (Apps grid) ===== */
+.grid.cards > ul { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.grid.cards li {
+  border-radius: var(--brand-radius);
+  background: var(--brand-card);
+  border: 1px solid var(--brand-stroke);
+  backdrop-filter: blur(6px);
+  transition: transform .15s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.grid.cards li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 40px rgba(0,0,0,.08);
+  border-color: color-mix(in oklab, var(--md-primary-fg-color) 18%, var(--brand-stroke));
+}
+
+/* ===== Headings underline ===== */
+.md-typeset h2, .md-typeset h3 { position: relative; padding-bottom: .25rem; }
+.md-typeset h2::after, .md-typeset h3::after {
+  content:""; position:absolute; left:0; bottom:0; width:64px; height:3px; border-radius:2px;
+  background: color-mix(in oklab, var(--md-primary-fg-color) 45%, transparent);
+}
+
+/* ===== Footer curve ===== */
+.md-footer {
+  border-top-left-radius: var(--brand-radius);
+  border-top-right-radius: var(--brand-radius);
+  overflow: hidden;
+}
+
+/* ===== Calmer code bg (let Material set text colors) ===== */
+:root, [data-md-color-scheme="default"] { --md-code-bg-color: color-mix(in oklab, var(--brand-grad-a) 55%, #fff); }
+[data-md-color-scheme="slate"] { --md-code-bg-color: #161320; }

@@ -9,7 +9,7 @@ Below are interactive tools I’ve built. Each card links to a live Streamlit ap
 
 - :seedling: **PSoup → APSIM Bridge**  
   Explore how gene-level tweaks affect crop outcomes.  
-  **[Open app](https://<streamlit-app-2>.streamlit.app/)**
+  **[Open app](https://psoup-apsim.streamlit.app/)**
 
 - :bar_chart: **Factorial Explorer**  
   Visualize multi-environment genotype results.  

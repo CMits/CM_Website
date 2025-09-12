@@ -1,0 +1,50 @@
+site_name: Chris Mits — Portfolio
+site_description: Personal site for apps, research, protocols, and projects
+site_url: https://CMits.github.io/CM_Website
+repo_url: https://github.com/CMits/CM_Website
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.expand
+    - toc.follow
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+  icon:
+    logo: material/account-circle
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CMits
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/www.linkedin.com/in/christos-mitsanis/
+    # add more if you want
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - CV: cv.md
+  - Apps: apps.md
+  - Projects: projects.md
+  - Articles: articles.md

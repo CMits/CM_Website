@@ -5,6 +5,7 @@ repo_url: https://github.com/CMits/CM_Website
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   logo: assets/logo.svg
   favicon: assets/logo.svg
@@ -62,6 +63,7 @@ plugins:
       categories: true
       authors_file: "{blog}/.authors.yml"
   - tags
+
 
 markdown_extensions:
   - admonition

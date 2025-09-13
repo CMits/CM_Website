@@ -9,8 +9,8 @@ hide:
   <img src="assets/IMG_20230424_101636.jpg" alt="Christos Mitsanis" class="hero-avatar" />
   <h1>Hi, I'm Christos Mitsanis</h1>
   <p class="hero-subtitle">
-    PhD in computational plant biology • Building PSoup → APSIM bridges •
-    Turning models into useful tools for growers & scientists
+    PhD in computational plant biology •
+    Turning models into useful tools
   </p>
   <div class="hero-actions">
     <a class="btn primary" href="apps/">Try my Apps</a>

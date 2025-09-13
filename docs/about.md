@@ -13,5 +13,7 @@ Currently, I am pursuing a PhD in computational biology at the ARC Centre of Exc
 - Cosmology
 
 **Contact**
+
 - GitHub: <https://github.com/CMits>
-- LinkedIn: <https://www.linkedin.com/in/https://www.linkedin.com/in/www.linkedin.com/in/christos-mitsanis/>
+
+- LinkedIn: <https://www.linkedin.com/in/christos-mitsanis/>

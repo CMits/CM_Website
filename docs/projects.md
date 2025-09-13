@@ -5,8 +5,14 @@
 - Status: prototypes with Streamlit UI for exploration.
 - Notes: scaling rules, binning logic, sensitivity, robustness.
 
-## Science Web
-- Goal: Create all the PhDs in online Apps in which agents can search which ones will be of their use. Efficeint collaboaration without barriers. 
-- Status: Protypes 
+## Slides & Resources
 
-> See **[Science_Web](Science_Web.md)** for deep dives and protocols.
+### Science Web
+
+
+These slides present the idea behind my **Science Web** project — a vision for connecting research as living, executable apps.  
+
+<iframe src="../assets/slides/Living_Research_Web_Pitch.pdf" width="100%" height="600" style="border:none;"></iframe>
+
+[⬇️ Download PPTX](assets/slides/Living_Research_Web_Pitch.pptx){ .md-button .md-button--primary }
+

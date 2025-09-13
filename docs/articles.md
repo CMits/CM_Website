@@ -1,12 +1,13 @@
-# Articles & Protocols
+# Publications
 
-Short write-ups, tutorials, and protocols.
+### A 3D functional plant modelling framework for agricultural digital twins  
+This is a paper from my master research practice.  
 
-- **Protocol:** PSoup binning ↔ APSIM TTN scaling (draft)  
-  _How we standardize sustained growth vs TTN across environments_
+[📑 Read the paper](https://doi.org/10.1016/j.compag.2024.108733){ .md-button .md-button--primary }
 
-- **Guide:** Deploying Streamlit apps for supervisors  
-  _Steps, tips, and gotchas for reliable demos_
+---
 
-- **Notes:** Gene sensitivity patterns under sucrose levels  
-  _Exploratory findings and plots_
+### Functional, Flavor and Visual Traits of Hydroponically Produced Tomato Fruit in Relation to Substrate, Plant Training System and Harvesting Time  
+This is a paper from my bachelor thesis.  
+
+[📑 Read the paper](https://www.mdpi.com/2311-7524/7/9/311){ .md-button .md-button--primary }

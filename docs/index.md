@@ -6,8 +6,8 @@ hide:
 
 <!-- Hero -->
 <div class="hero">
-  <img src="assets/profile.jpg" alt="Chris Mits" class="hero-avatar" />
-  <h1>Hi, I'm Chris Mits</h1>
+  <img src="assets/IMG_20230424_101636.jpg" alt="Christos Mitsanis" class="hero-avatar" />
+  <h1>Hi, I'm Christos Mitsanis</h1>
   <p class="hero-subtitle">
     PhD in computational plant biology • Building PSoup → APSIM bridges •
     Turning models into useful tools for growers & scientists
@@ -23,17 +23,28 @@ hide:
 
 # Welcome
 
-Hi, I’m **Chris Mits** — PhD candidate in computational plant biology (UQ).  
-I build gene-to-phenotype models, connect biological networks to crop models, and turn research into **useful tools** for farmers and scientists.
+Hi there, and welcome to my page! 👋
+I’m really excited you’re here. I love working on different projects and decided to share them with you — maybe you’ll find something useful, inspiring, or just cool to explore.
 
 **Start exploring:**
-- 👉 [Apps](apps.md) — live calculators & simulations (Streamlit)
-- 🧪 [Projects](projects.md) — PSoup–APSIM, sensitivity analyses, VR tools
-- 📚 [Articles](articles.md) — write-ups, protocols, notes
-- 👤 [About me](about.md) — background & interests
-- 📄 [CV](cv.md)
 
-> If you want to collaborate or try a tool with your data, reach out on GitHub or LinkedIn.
+- 👉 [Apps](apps.md) — live calculators & simulations (Streamlit)
+
+- 🧪 [Projects](projects.md) — PSoup–APSIM, sensitivity analyses, VR tools
+
+- 📚 [Articles](articles.md) — write-ups, protocols, notes
+
+- 👤 [About me](about.md) — background & interests
+
+- - 🌍 Social Media:  
+  - [YouTube](https://youtube.com/) 🎥  
+  - [TikTok](https://tiktok.com/) 🎵  
+  - [LinkedIn](https://linkedin.com/in/) 💼  
+  - [GitHub](https://github.com/) 💻  
+  - [Email](mailto:youremail@example.com) ✉️  
+
+> ✨ If you’d like to collaborate, or if you’re interested in creating a tool using biological models for your own projects, feel free to reach out to me by email or LinkedIn.
+I’d be more than happy to help and share my insights!
 
 ---
 

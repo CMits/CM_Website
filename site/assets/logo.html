@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CM Futuristic Logo</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #000;
+    --ring: rgba(0, 255, 255, 0.5);
+    --glow: rgba(0, 255, 255, 0.25);
+    --dot: rgba(0, 255, 255, 0.9);
+    --size: 320px;         /* overall logo box size */
+    --logo-size: 160px;    /* center logo/image size */
+  }
+
+  html, body {
+    height: 100%;
+    margin: 0;
+    background: var(--bg);
+    overflow: hidden;
+  }
+
+  .stage {
+    height: 100%;
+    display: grid;
+    place-items: center;
+  }
+
+  .logo-wrap {
+    position: relative;
+    width: var(--size);
+    height: var(--size);
+    filter: drop-shadow(0 0 12px var(--glow));
+  }
+
+  /* Center logo (image if present; otherwise text fallback) */
+  .logo-core {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    z-index: 5; /* above rings/dots */
+  }
+
+  .logo-core img {
+    width: var(--logo-size);
+    height: var(--logo-size);
+    object-fit: contain;
+    image-rendering: auto;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  .logo-core .fallback {
+    font-family: 'Orbitron', system-ui, sans-serif;
+    font-weight: 800;
+    font-size: clamp(40px, 10vw, 72px);
+    letter-spacing: 0.06em;
+    color: white;
+    text-shadow: 0 0 18px var(--glow);
+  }
+
+  /* Rings (concentric, rotating) */
+  .ring {
+    position: absolute;
+    border: 2px solid var(--ring);
+    border-radius: 50%;
+    box-shadow: 0 0 20px var(--glow) inset, 0 0 20px var(--glow);
+    animation: spin linear infinite;
+  }
+
+  .ring.r1 { width: 200px; height: 200px; top: 60px; left: 60px; animation-duration: 12s; }
+  .ring.r2 { width: 260px; height: 260px; top: 30px; left: 30px; animation-duration: 18s; }
+  .ring.r3 { width: 310px; height: 310px; top: 5px;  left: 5px;  animation-duration: 24s; }
+
+  @keyframes spin {
+    from { transform: rotate(0deg) }
+    to   { transform: rotate(360deg) }
+  }
+
+  /* Orbiting dots (give obvious motion) */
+  .orbit {
+    position: absolute;
+    inset: 0;
+    animation: orbit linear infinite;
+    z-index: 3;
+  }
+  .orbit.o1 { animation-duration: 8s; }
+  .orbit.o2 { animation-duration: 12s; }
+  .orbit.o3 { animation-duration: 16s; }
+
+  @keyframes orbit {
+    from { transform: rotate(0deg) }
+    to   { transform: rotate(360deg) }
+  }
+
+  .dot {
+    position: absolute;
+    width: 8px; height: 8px;
+    background: var(--dot);
+    border-radius: 50%;
+    box-shadow: 0 0 12px var(--dot), 0 0 24px var(--glow);
+  }
+
+  /* place dots at different radii/angles */
+  .o1 .dot:nth-child(1) { top: 50%; left: 5%;   transform: translate(-50%, -50%); }
+  .o1 .dot:nth-child(2) { top: 5%;  left: 50%;  transform: translate(-50%, -50%); }
+  .o2 .dot:nth-child(1) { top: 50%; left: 95%;  transform: translate(-50%, -50%); }
+  .o2 .dot:nth-child(2) { top: 95%; left: 50%;  transform: translate(-50%, -50%); }
+  .o3 .dot:nth-child(1) { top: 18%; left: 18%;  transform: translate(-50%, -50%); }
+  .o3 .dot:nth-child(2) { top: 82%; left: 82%;  transform: translate(-50%, -50%); }
+
+  /* subtle center pulse */
+  .pulse {
+    position: absolute;
+    width: calc(var(--logo-size) * 1.2);
+    height: calc(var(--logo-size) * 1.2);
+    border-radius: 50%;
+    left: calc(50% - (var(--logo-size) * 0.6));
+    top:  calc(50% - (var(--logo-size) * 0.6));
+    background: radial-gradient(circle, var(--glow), transparent 60%);
+    filter: blur(4px);
+    animation: breathe 3.5s ease-in-out infinite;
+    z-index: 2;
+  }
+
+  @keyframes breathe {
+    0%, 100% { opacity: 0.45; transform: scale(1) }
+    50%      { opacity: 0.8;  transform: scale(1.08) }
+  }
+</style>
+</head>
+<body>
+  <div class="stage">
+    <div class="logo-wrap">
+
+      <!-- Center logo: use your image named cm-logo.png, or fallback text "C M" -->
+      <div class="logo-core">
+        <!-- If you don't have an image yet, comment the <img> line and keep the fallback -->
+        <img src="logo.svg" alt="CM Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+        <div class="fallback" style="display:none;">C&nbsp;M</div>
+      </div>
+
+      <!-- subtle center pulse -->
+      <div class="pulse"></div>
+
+      <!-- Concentric rotating rings -->
+      <div class="ring r1"></div>
+      <div class="ring r2"></div>
+      <div class="ring r3"></div>
+
+      <!-- Orbiting dots (clear motion) -->
+      <div class="orbit o1">
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <div class="orbit o2">
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      <div class="orbit o3">
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>

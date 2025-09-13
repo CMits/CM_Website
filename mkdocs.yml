@@ -3,9 +3,6 @@ site_description: Personal site for apps, research, protocols, and projects
 site_url: https://CMits.github.io/CM_Website
 repo_url: https://github.com/CMits/CM_Website
 
-# Your markdown files (about.md, index.md, etc.) are in the repo root
-docs_dir: "."
-
 theme:
   name: material
   language: en
@@ -59,10 +56,10 @@ plugins:
   - search
   - awesome-pages
   - blog:
-      blog_dir: blog                # blog lives in ./blog
-      post_dir: "{blog}/posts"      # posts in ./blog/posts
+      blog_dir: blog
+      post_dir: "{blog}/posts"
       archive: true
-      categories: true              # auto category pages
+      categories: true
       authors_file: "{blog}/.authors.yml"
   - tags
 

@@ -1,11 +1,12 @@
-chris:
-  name: Christos Mitsanis
-  description: Computational biology PhD — gene→phenotype→crop
-  avatar: assets/IMG_4228.jpg   # adjust if your image lives elsewhere
-  links:
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/christos-mitsanis/
-    - icon: fontawesome/brands/github
-      link: https://github.com/CMits
-    - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@Digital_Plants
+authors:
+  chris:
+    name: Christos Mitsanis
+    description: Computational biology PhD — gene→phenotype→crop
+    avatar: assets/IMG_4228.jpg
+    links:
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/in/christos-mitsanis/
+      - icon: fontawesome/brands/github
+        link: https://github.com/CMits
+      - icon: fontawesome/brands/youtube
+        link: https://www.youtube.com/@Digital_Plants

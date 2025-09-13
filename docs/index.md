@@ -36,12 +36,18 @@ I’m really excited you’re here. I love working on different projects and dec
 
 - 👤 [About me](about.md) — background & interests
 
-- - 🌍 Social Media:  
+- 🌍 Social Media:  
   - [YouTube](https://youtube.com/) 🎥  
   - [TikTok](https://tiktok.com/) 🎵  
   - [LinkedIn](https://linkedin.com/in/) 💼  
   - [GitHub](https://github.com/) 💻  
   - [Email](mailto:youremail@example.com) ✉️  
+
+- 📰 [Blog](blog/index.md) — science, self-development & sci-fi ideas  
+  - [Science](blog/categories/#science)
+  - [AI in science and everyday life](blog/categories/#ai)   
+  - [Self-Development](blog/categories/#self-development)  
+  - [Sci-Fi Ideas](blog/categories/#sci-fi-ideas)
 
 > ✨ If you’d like to collaborate, or if you’re interested in creating a tool using biological models for your own projects, feel free to reach out to me by email or LinkedIn.
 I’d be more than happy to help and share my insights!

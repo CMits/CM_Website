@@ -11,7 +11,7 @@ Below are selected talks, demos, and guest lectures. New uploads will appear on 
   <div class="talk-card">
     <div class="video-wrapper">
       <iframe
-        src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+        src="https://www.youtube.com/embed/r9Q_59hO4y8"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -19,32 +19,7 @@ Below are selected talks, demos, and guest lectures. New uploads will appear on 
       </iframe>
     </div>
 
-    <h3>Talk title goes here</h3>
-    <p class="talk-meta">
-      :material-calendar: 12 Sep 2025 &nbsp;&middot;&nbsp; :material-map-marker: UQ, Brisbane
-    </p>
-
-    <!-- Action buttons -->
-    [:material-youtube: Watch on YouTube](https://youtu.be/r9Q_59hO4y8&t=446s&ab_channel=ARCCoEforPlantSuccess){ .md-button .md-button--primary }
-    [:material-timer-play: Short clip](https://youtu.be/VIDEO_ID_HERE?t=120){ .md-button }
-    [:material-chat-question: Q&A timestamps](#qa){ .md-button }
-
-    <details class="abstract">
-      <summary>:material-text: Abstract</summary>
-      <p>
-        One-paragraph summary of the talk. What problem do we solve, why it matters,
-        and 2–3 key takeaways for the audience.
-      </p>
-    </details>
-
-    <details>
-      <summary id="qa">:material-comment-quote: Q&A notes</summary>
-      <ul>
-        <li><strong>05:12</strong> – How SUC interacts with tillering</li>
-        <li><strong>12:40</strong> – Linking PSoup to APSIM</li>
-        <li><strong>21:03</strong> – Future experiments</li>
-      </ul>
-    </details>
+    <h3>Leveraging Parsimonious Model PSoup for Cross-Scale Plant Modeling</h3>
   </div>
 </div>
 
@@ -52,41 +27,8 @@ Below are selected talks, demos, and guest lectures. New uploads will appear on 
 
 ## Slides & Resources
 
-<!-- Add more items as needed -->
-<div class="resource-grid">
-
-  <div class="resource-card">
-    <h4>:material-file-ppt: Slides (PPTX)</h4>
-    <p>Full deck used in the talk.</p>
-    [:material-download: Download PPTX](assets/slides/TALK_NAME.pptx){ .md-button }
-  </div>
-
-  <div class="resource-card">
-    <h4>:material-file-pdf-box: Slides (PDF)</h4>
-    <p>Printer-friendly version.</p>
-    [:material-download: Download PDF](assets/slides/TALK_NAME.pdf){ .md-button }
-  </div>
-
-  <div class="resource-card">
-    <h4>:material-file-document-multiple: Handout / One-pager</h4>
-    <p>Key figures, equations, and references.</p>
-    [:material-download: Download PDF](assets/handouts/TALK_NAME_1pager.pdf){ .md-button }
-  </div>
-
-  <div class="resource-card">
-    <h4>:material-link-variant: Project page</h4>
-    <p>Data, code, and supplementary material.</p>
-    [:material-github: Repository](https://github.com/CMits/YourRepo){ .md-button }
-  </div>
-
-</div>
-
----
-
-## More videos
-
-- [:fontawesome-brands-youtube: Full YouTube playlist](https://www.youtube.com/@YourChannelName/playlists)
-- [:fontawesome-brands-tiktok: TikTok clips](https://www.tiktok.com/@YourTikTokHandle)
+<iframe src="../assets/slides/Living_Research_Web_Pitch.pdf" width="100%" height="600" style="border:none;"></iframe>
+[⬇️ Download PPTX](assets/slides/Living_Research_Web_Pitch.pptx){ .md-button .md-button--primary }
 
 ---
 

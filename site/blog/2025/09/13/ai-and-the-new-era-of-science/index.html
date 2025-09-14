@@ -13,6 +13,8 @@
         <link rel="canonical" href="https://CMits.github.io/CM_Website/blog/2025/09/13/ai-and-the-new-era-of-science/">
       
       
+        <link rel="prev" href="../ai-science-hub/">
+      
       
       
       <link rel="icon" href="../../../../../assets/logo.svg">
@@ -316,7 +318,7 @@
   
     
   
-  Articles
+  Publications
 
       </a>
     </li>
@@ -532,7 +534,7 @@
   
   
   <span class="md-ellipsis">
-    Articles
+    Publications
     
   </span>
   
@@ -963,6 +965,57 @@
 
 
   
+
+
+
+  <!-- Share bar (optional; keep if you like) -->
+  <div class="share-bar" style="margin: 1.5rem 0; display:flex; gap:.5rem; align-items:center; flex-wrap: wrap;">
+    <strong>Share:</strong>
+    <a class="md-button" id="share-twitter"   href="#">X</a>
+    <a class="md-button" id="share-linkedin"  href="#">LinkedIn</a>
+    <a class="md-button" id="share-whatsapp"  href="#">WhatsApp</a>
+    <a class="md-button" id="share-telegram"  href="#">Telegram</a>
+    <a class="md-button" id="share-facebook"  href="#">Facebook</a>
+    <a class="md-button" id="share-copy"      href="#">Copy link</a>
+  </div>
+  <script>
+    (function () {
+      const u = encodeURIComponent(window.location.href);
+      const t = encodeURIComponent(document.title);
+      const S = {
+        twitter:  `https://twitter.com/intent/tweet?url=${u}&text=${t}`,
+        linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${u}`,
+        whatsapp: `https://api.whatsapp.com/send?text=${t}%20${u}`,
+        telegram: `https://t.me/share/url?url=${u}&text=${t}`,
+        facebook: `https://www.facebook.com/sharer/sharer.php?u=${u}`,
+      };
+      document.addEventListener('click', e => {
+        const a = e.target.closest('a'); if(!a || !a.id?.startsWith('share-')) return;
+        e.preventDefault();
+        const k = a.id.replace('share-','');
+        if (k === 'copy') { navigator.clipboard?.writeText(window.location.href); a.textContent='Copied!'; setTimeout(()=>a.textContent='Copy link',1200); return; }
+        window.open(S[k], '_blank', 'noopener,noreferrer');
+      });
+    })();
+  </script>
+
+  <!-- Giscus (paste your values from giscus.app below) -->
+  <h2 id="__comments">Comments</h2>
+  <script src="https://giscus.app/client.js"
+    data-repo="CMits/CM_Website"
+    data-repo-id="R_kgDOPuelgg"
+    data-category="General"
+    data-category-id="DIC_kwDOPuelgs4CvZR1"
+    data-mapping="pathname"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
+    crossorigin="anonymous"
+    async>
+  </script>
+  <div class="giscus"></div>
 
 
 

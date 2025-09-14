@@ -2,8 +2,15 @@ name: Deploy MkDocs site
 
 on:
   push:
-    branches: [ main ]   # or 'master' if you use that
+    branches: [main]   # or 'master'
   workflow_dispatch:
+
+permissions:
+  contents: write   # allow pushing to gh-pages
+
+concurrency:
+  group: mkdocs-deploy
+  cancel-in-progress: false
 
 jobs:
   build-deploy:
@@ -16,13 +23,16 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Install MkDocs + Material
         run: |
           python -m pip install --upgrade pip
+          pip install -r requirements.txt || true
           pip install mkdocs-material pymdown-extensions
 
-      - name: Build and deploy
-        run: |
-          mkdocs build --strict
-          mkdocs gh-deploy --force
+      - name: Build (sanity check)
+        run: mkdocs build --strict
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force

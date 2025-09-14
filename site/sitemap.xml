@@ -2,46 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://CMits.github.io/CM_Website/</loc>
-         <lastmod>2025-09-13</lastmod>
+         <lastmod>2025-09-14</lastmod>
     </url>
     <url>
          <loc>https://CMits.github.io/CM_Website/Presentations/</loc>
-         <lastmod>2025-09-13</lastmod>
+         <lastmod>2025-09-14</lastmod>
+    </url>
+    <url>
+         <loc>https://CMits.github.io/CM_Website/Science_Web/</loc>
+         <lastmod>2025-09-14</lastmod>
     </url>
     <url>
          <loc>https://CMits.github.io/CM_Website/about/</loc>
-         <lastmod>2025-09-13</lastmod>
+         <lastmod>2025-09-14</lastmod>
     </url>
     <url>
          <loc>https://CMits.github.io/CM_Website/apps/</loc>
-         <lastmod>2025-09-13</lastmod>
+         <lastmod>2025-09-14</lastmod>
     </url>
     <url>
          <loc>https://CMits.github.io/CM_Website/articles/</loc>
-         <lastmod>2025-09-13</lastmod>
+         <lastmod>2025-09-14</lastmod>
     </url>
     <url>
          <loc>https://CMits.github.io/CM_Website/cv/</loc>
-         <lastmod>2025-09-13</lastmod>
+         <lastmod>2025-09-14</lastmod>
     </url>
     <url>
          <loc>https://CMits.github.io/CM_Website/projects/</loc>
-         <lastmod>2025-09-13</lastmod>
+         <lastmod>2025-09-14</lastmod>
     </url>
     <url>
          <loc>https://CMits.github.io/CM_Website/blog/</loc>
-         <lastmod>2025-09-13</lastmod>
+         <lastmod>2025-09-14</lastmod>
     </url>
     <url>
          <loc>https://CMits.github.io/CM_Website/blog/2025/09/13/ai-and-the-new-era-of-science/</loc>
-         <lastmod>2025-09-13</lastmod>
+         <lastmod>2025-09-14</lastmod>
+    </url>
+    <url>
+         <loc>https://CMits.github.io/CM_Website/blog/2025/09/13/ai-science-hub/</loc>
+         <lastmod>2025-09-14</lastmod>
     </url>
     <url>
          <loc>https://CMits.github.io/CM_Website/blog/archive/2025/</loc>
-         <lastmod>2025-09-13</lastmod>
+         <lastmod>2025-09-14</lastmod>
     </url>
     <url>
          <loc>https://CMits.github.io/CM_Website/blog/category/ai/</loc>
-         <lastmod>2025-09-13</lastmod>
+         <lastmod>2025-09-14</lastmod>
     </url>
 </urlset>

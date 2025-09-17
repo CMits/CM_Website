@@ -58,3 +58,4 @@ I’d be more than happy to help and share my insights!
 - 🚀 Deployed: Irrigation Advisor (Streamlit) — soil water estimator
 - 🧪 PSoup → APSIM prototype: genotype × environment exploration
 - 🎧 Coming soon: VR explainer for branching networks
+- 🌱 ShootX-PSoup App: Simulate shoot branching with gene-level changes. 

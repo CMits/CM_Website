@@ -77,7 +77,8 @@ Your work wouldn’t just be *read* — it would be *used*, *extended*, and *kep
 
 ---
 
-![Science web concept](assets/science_web.png)
+
+
 
 
 

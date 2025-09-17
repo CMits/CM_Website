@@ -3,6 +3,8 @@ site_description: Personal site for apps, research, protocols, and projects
 site_url: https://CMits.github.io/CM_Website
 repo_url: https://github.com/CMits/CM_Website
 
+strict: false 
+
 theme:
   name: material
   custom_dir: overrides

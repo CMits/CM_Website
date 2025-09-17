@@ -9,6 +9,10 @@ Below are interactive tools I’ve built. Each card links to a live Streamlit ap
   Explore gene-level tweaks and crop outcomes.  
   **[Open app](https://psoup-apsim.streamlit.app/)** 
 
+- 🌱 **ShootX-PSoup**  
+  Simulate shoot branching with gene-level changes.  
+  **[Open app](https://shootx-psoup.streamlit.app/)**  
+
 
 
 </div>
